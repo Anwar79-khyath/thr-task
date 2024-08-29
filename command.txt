@@ -1,0 +1,15 @@
+echo "# thr-task" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Anwar79-khyath/thr-task.git
+git push -u origin main
+
+git init
+git status
+git add factorial.java
+git commit -m factorial.java
+
+git remote add origin https://github.com/Anwar79-khyath/thr-task.git
+git push -u origin master
